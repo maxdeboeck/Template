@@ -1,1 +1,1 @@
-# Algebre Abstraite
+# Example Template
