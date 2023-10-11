@@ -1,1 +1,1 @@
-# Example Template
+# mdbook Example Template
