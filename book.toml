@@ -1,0 +1,31 @@
+[book]
+authors = ["author-name"]
+language = "fr"
+multilingual = false
+src = "src"
+title = "Template Book"
+
+[preprocessor.katex]
+after = ["links"]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.0" # do not edit: managed by `mdbook-admonish install`
+
+[output.html]
+# theme = "my-theme"
+default-theme = "light"
+# preferred-dark-theme = "navy"
+# curly-quotes = true
+# mathjax-support = false
+# copy-fonts = true
+# additional-css = ["custom.css", "custom2.css"]
+# additional-js = ["custom.js"]
+# no-section-label = false
+git-repository-url = "https://github.com/"
+git-repository-icon = "fa-github"
+additional-css = ['.\mdbook-admonish.css']
+# edit-url-template = "https://github.com/rust-lang/mdBook/edit/master/guide/{path}"
+# site-url = "/example-book/"
+# cname = "myproject.rs"
+# input-404 = "not-found.md"
