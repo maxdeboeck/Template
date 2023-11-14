@@ -77,6 +77,14 @@ This is an example of how to display pdf files.
 </object>
 </div>
 
+<details>
+<summary><a href="./sample.pdf">Sample PDF</a></summary>
+<div>
+<object data="./sample.pdf" type="application/pdf" style="height:100vh;width:100%">
+</object>
+</div>
+</details>
+
 ## Images
 
 ```html
