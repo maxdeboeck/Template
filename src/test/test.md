@@ -64,7 +64,7 @@ Bare Links : <https://rust-lang.github.io/mdBook/>.
 
 ## PDFs
 
-This is an example of how to display pdf files.
+This is an example of how to display pdf files. They can be displayed inline or in a collapsible block.
 ```html
 <div>
 <object data="./sample.pdf" type="application/pdf" style="height:100vh;width:100%">
