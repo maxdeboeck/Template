@@ -5,6 +5,9 @@ multilingual = true
 src = "src"
 title = "Template Book"
 
+[preprocessor.snippet_replacer]
+command = "python3 snippets/snippets2.py"
+
 [preprocessor.katex]
 after = ["links"]
 
